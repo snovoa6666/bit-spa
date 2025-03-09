@@ -1,1 +1,25 @@
-<p>pokeapi works!</p>
+
+@defer (on immediate) {
+  <section class="container">
+    <div class="row row-cols-1 row-cols-md-5 g-4 p-5 text-center">
+      @for (pokemon of pokemons; track $index) {
+      <div class="col">
+        <h2>Pokemon</h2>
+        <div class="card  card-pokemon">
+          <img src="{{pokemon.image}}" class="card-img-top" alt="{{pokemon.name}}" />
+          <div class="card-body  text-white">
+            <h5 class="card-title ">{{ pokemon.name }}</h5>
+          </div>
+        </div>
+      </div>
+      }
+    </div>
+  </section>
+} @placeholder {
+  <p>placeholder</p>
+} @loading (minimum 2s) {
+  <div class="spinner-border text-center m-5" role="status">
+    <span class="visually-hidden text-center">Loading...</span>
+  </div>
+} 
+

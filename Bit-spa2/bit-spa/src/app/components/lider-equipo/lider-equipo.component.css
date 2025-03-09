@@ -1,5 +1,6 @@
 .titulo{
     text-align: center;
+    margin-top: 150px;
 }
 .card {
     max-width: 1200px;
@@ -7,4 +8,7 @@
 }
 .img{
     text-align: center;
+}
+.contenedor{
+    margin-bottom: 150px;
 }

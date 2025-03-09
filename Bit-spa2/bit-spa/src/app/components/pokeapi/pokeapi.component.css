@@ -1,0 +1,10 @@
+body{
+    background-color: #9aa2ab;
+}
+.card-pokemon{
+    background-color: #2677d1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+    border: #85669e;
+}

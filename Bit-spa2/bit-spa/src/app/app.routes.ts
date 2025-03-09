@@ -10,6 +10,7 @@ import { PokeapiComponent } from './components/pokeapi/pokeapi.component';
 
 
 
+
 export const routes: Routes = [
     {path: "equipoback", component:EquipoBackComponent, title: 'EquipoBack'},
     {path: "equipofront", component:EquipoFrontComponent, title: 'EquipoFront'},
