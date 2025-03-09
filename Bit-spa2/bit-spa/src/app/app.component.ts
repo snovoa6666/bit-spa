@@ -16,3 +16,4 @@ import { LiderEquipoComponent } from './components/lider-equipo/lider-equipo.com
 export class AppComponent {
   title = 'bit-spa';
 }
+

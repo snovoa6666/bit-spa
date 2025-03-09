@@ -5,7 +5,7 @@ import { TitleCasePipe } from '@angular/common';
 
 @Component({
   selector: 'app-pokeapi',
-  imports: [TitleCasePipe],
+  imports: [],
   templateUrl: './pokeapi.component.html',
   styleUrl: './pokeapi.component.css',
 })
